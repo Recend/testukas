@@ -1,0 +1,131 @@
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+
+
+
+.main {
+ display: flex;
+ max-width: 1200px;
+ margin: 50px auto;
+ justify-content: space-between;
+}
+
+h2{
+ text-align: center;
+ margin-top: 10px;
+ color: orange;
+ font-weight: bold;
+}
+
+p{
+ line-height: 1.5;
+}
+
+.mainas {
+display: flex;
+flex-direction: column;
+align-items: center;
+flex: 1;
+padding: 10px;
+}
+
+.skaicius{
+ font-size: large;
+ border: 5px solid aquamarine;
+ border-radius: 50px;
+ padding: 15px 20px;
+ margin-right: 220px;
+ margin-bottom: -50px;
+ background-color: white;
+ margin-left: -20px;
+ margin-top: -20px;
+}
+.skaicius1{
+ font-size: large;
+ border: 5px solid blue;
+ border-radius: 50px;
+ padding: 15px 20px;
+ margin-right: 220px;
+ margin-bottom: -50px;
+ background-color: white;
+ margin-left: -20px;
+ margin-top: -20px;
+}
+.skaicius2{
+ font-size: large;
+ border: 5px solid red;
+ border-radius: 50px;
+ padding: 15px 20px;
+ margin-right: 220px;
+ margin-bottom: -50px;
+ background-color: white;
+ margin-left: -20px;
+ margin-top: -20px;
+}
+.skaicius3{
+ font-size: large;
+ border: 5px solid grey;
+ border-radius: 50px;
+ padding: 15px 20px;
+ margin-right: 220px;
+ margin-bottom: -50px;
+ background-color: white;
+ margin-left: -20px;
+ margin-top: -20px;
+}
+
+.foto{
+ background-color: aquamarine;
+ display: flex; 
+ flex-direction: column; 
+ align-items: center;
+ border-radius: 9px 9px 9px 9px;
+-webkit-border-radius: 9px 9px 9px 9px;
+-moz-border-radius: 9px 9px 9px 9px;
+padding: 10px;
+}
+
+.foto1{
+ background-color: blue;
+ display: flex; 
+ flex-direction: column; 
+ align-items: center;
+ border-radius: 9px 9px 9px 9px;
+-webkit-border-radius: 9px 9px 9px 9px;
+-moz-border-radius: 9px 9px 9px 9px;
+ padding: 10px;
+}
+.foto2{
+ background-color: rgb(255, 55, 0);
+ display: flex; 
+ flex-direction: column; 
+ align-items: center;
+ border-radius: 9px 9px 9px 9px;
+-webkit-border-radius: 9px 9px 9px 9px;
+-moz-border-radius: 9px 9px 9px 9px;
+padding: 10px;
+}
+.foto3{
+ background-color: grey;
+ display: flex; 
+ flex-direction: column; 
+ align-items: center;
+ border-radius: 9px 9px 9px 9px;
+-webkit-border-radius: 9px 9px 9px 9px;
+-moz-border-radius: 9px 9px 9px 9px;
+padding: 10px;
+}
+.skaicius{
+
+}
+
+@media (max-width: 1230px){
+.main{
+ display: flex;
+flex-wrap: wrap;
+}
+}
